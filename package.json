@@ -2,10 +2,11 @@
   "name": "issue_reproducing",
   "version": "0.1.0",
   "private": false,
+
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib",
+    "build-bundle": "vue-cli-service build --target lib ./src/build-entry.js",
     "lint": "vue-cli-service lint"
   },
   "files": [
