@@ -1,10 +1,12 @@
 <template>
-  <div></div>
+  <Issue/>
 </template>
 
 <script>
+import Issue from '@/components/Issue.vue'
 export default {
   components: {
+    Issue
   }
 }
 </script>
